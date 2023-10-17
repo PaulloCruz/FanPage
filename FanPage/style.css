@@ -1,0 +1,128 @@
+body{
+    margin: 0 auto;
+
+}
+.capa{
+    height: 511px;
+    width: 550px;
+    background-image: url(./img/fundoAzulCapuzVermelho.jfif);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    right: -600px;
+}
+.navbar{
+    
+    text-align: center;
+    height: 50px;
+    background-color: rgba(255, 153, 0, 0.897);
+}
+.menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: auto 40px;
+
+}
+.menuHome:visited{
+    color: black;
+    transition: 1s;
+}
+.menuHome:active{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuHome:hover{ 
+    color: red;
+    font-size: 30px;
+    transition: 1s;
+    margin: auto 40px;
+}
+.menuBio:hover{
+    color: red;
+    font-size: 30px;
+    transition: 1s;
+    margin: auto 40px;
+}
+.menuBio:active{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuBio:visited{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuPubli:hover{
+    color: red;
+    font-size: 30px;
+    transition: 1s;
+    margin: auto 40px;
+}
+.menuPubli:active{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuPubli:visited{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuContato:hover{
+    color: red;
+    font-size: 30px;
+    transition: 1s;
+    margin: auto 40px;
+}
+.menuContato:active{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.menuContato:visited{
+    color: rgb(0, 0, 0);
+    transition: 1s; 
+}
+
+.background{
+    background-color: rgb(0, 0, 0);
+    height: 905px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.home{
+    color: white;
+    width: 900px;
+    text-align: center;
+}
+.title{
+    margin: 30px 20px 20px;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 1000;
+    position: relative;
+    left: 380px;
+}
+span{
+        margin-left: 100px;
+
+}
+.foot{
+    width: 905px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.body{
+    width:auto ;
+    text-align: center;
+    position: relative;
+    left: 340px;
+}
